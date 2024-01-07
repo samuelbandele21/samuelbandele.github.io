@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.letters{
+    font-size: 90px;
+    font-family: cursive;
+    display: inline-block;
+    color: bisque;
+    transition: all 250ms ease-in-out;
+}
+
+.letters.active{
+    transform: scale(1.5) rotate(20deg);
+    color: green;
+}
